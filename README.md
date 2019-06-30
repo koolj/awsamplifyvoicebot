@@ -21,6 +21,7 @@ Test on local:3000
 AWS Amplify + AWS Lex + AWS Dynamodb + AWS Lambda + AWS Cognito to build voice bot chat for retailer/online shops
 
 This version for: timesheet checkins for shop workers, and booking/ordering products.
+
 Next version for: analytic customer's need, report administrative tasks
 
 ## Technologies:
@@ -39,7 +40,7 @@ Case1:
 There are so many small, and online retail shops, that they need some kind of voice bot chat to:
 - automatic reply timesheet checkin for worker
 - next: automatic reply reports for managers
-- automatic order/booking product
+- automatic order/booking product for customers
 - next: automatic gathering customer's claim/complaint
 
 Solution:
@@ -66,6 +67,18 @@ Solution:
 - Use Lambda for DB queryig reply, and store order
 - User DynamoDB for storing records
 - Can be scaled with EC2 loadbalancing, and CDN for content delivery
+
+
+Case4: Next version
+- To automatically do analytics customer's complaint & analyze potential customers.
+
+Solution:
+- Use Java & AWS EC3 to to build data crawlers, store data to DynamoDB
+- Use Lambda for DB queryig reply data for analytic questions
+eg:
+1. How many people like or dislike this product
+2. How many people/potential customers, who are they, which record said that they are potential?
+
 
 Any comments are appreciated.
 
