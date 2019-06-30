@@ -24,14 +24,16 @@ This version for: timesheet checkins for shop workers, and booking/ordering prod
 Next version for: analytic customer's need, report administrative tasks
 
 ## Technologies:
-AWS Amplify + ReactJS + NodeJS to build webbased app
-AWS Lex to build bot chat for: timesheet checkin for shop worker, and booking product order
-AWS Dynamodb to store order, reports, and timesheet checkin records
-AWS Lambda to action to reply what human said
-AWS Cognito for user pool
-AWS S3 for hosting
-AWS EC2 for loadbalancing
-AWS CDN for content delivery
+- AWS Amplify + ReactJS + NodeJS to build webbased app
+- AWS Lex to build bot chat for: timesheet checkin for shop worker, and booking product order
+- AWS Dynamodb to store order, reports, and timesheet checkin records
+- AWS Lambda to action to reply what human said
+- AWS Cognito for user pool
+- AWS S3 for hosting
+- AWS EC2 for loadbalancing
+- AWS CDN for content delivery
+
+
 
 Case1:
 There are so many small, and online retail shops, that they need some kind of voice bot chat to:
@@ -43,6 +45,8 @@ There are so many small, and online retail shops, that they need some kind of vo
 Solution:
 - Here come bookworm aws chat bot
 
+
+
 Case2: 
 - To automatically do timesheet checkins for workers
 
@@ -51,6 +55,8 @@ Solution:
 - Use Lambda for DB queryig reply, and check double found checkin.
 - User DynamoDB for storing records.
 - Can be scaled with EC2 loadbalancing, and CDN for content delivery
+
+
 
 Case3: 
 - To automatically do booking/ordering product for customer. Example a Samsung TV one.
@@ -62,5 +68,7 @@ Solution:
 - Can be scaled with EC2 loadbalancing, and CDN for content delivery
 
 Any comments are appreciated.
+
 KJ
+
 testerpro.org/admincv
