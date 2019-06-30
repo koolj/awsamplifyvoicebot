@@ -1,0 +1,22 @@
+{
+	"hosting": {},
+	"auth": {
+		"awschatbot673f475e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"awschatbot": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"interactions": {
+		"lexea4d1b45": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		}
+	}
+}

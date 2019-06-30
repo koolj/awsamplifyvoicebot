@@ -1,0 +1,20 @@
+{
+    "appName": "awschatbot",
+    "roleName": "pinpointLambdaRole32ed4d3a",
+    "cloudWatchPolicyName": "cloudWatchPolicy32ed4d3a",
+    "pinpointPolicyName": "pinpointPolicy32ed4d3a",
+    "authPolicyName": "pinpoint_amplify_32ed4d3a",
+    "unauthPolicyName": "pinpoint_amplify_32ed4d3a",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

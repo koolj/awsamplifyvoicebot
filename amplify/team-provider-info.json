@@ -1,0 +1,19 @@
+{
+    "reactjs": {
+        "awscloudformation": {
+            "AuthRoleName": "awschatbot-reactjs-20190630144404-authRole",
+            "UnauthRoleArn": "arn:aws:iam::281982043102:role/awschatbot-reactjs-20190630144404-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::281982043102:role/awschatbot-reactjs-20190630144404-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "awschatbot-reactjs-20190630144404-deployment",
+            "UnauthRoleName": "awschatbot-reactjs-20190630144404-unauthRole",
+            "StackName": "awschatbot-reactjs-20190630144404",
+            "StackId": "arn:aws:cloudformation:us-east-1:281982043102:stack/awschatbot-reactjs-20190630144404/d4fa4320-9b0a-11e9-9a10-0eb2970e4f5e"
+        },
+        "categories": {
+            "auth": {
+                "awschatbot673f475e": {}
+            }
+        }
+    }
+}

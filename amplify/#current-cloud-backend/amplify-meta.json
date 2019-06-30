@@ -1,0 +1,74 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "awschatbot-reactjs-20190630144404-authRole",
+			"UnauthRoleArn": "arn:aws:iam::281982043102:role/awschatbot-reactjs-20190630144404-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::281982043102:role/awschatbot-reactjs-20190630144404-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "awschatbot-reactjs-20190630144404-deployment",
+			"UnauthRoleName": "awschatbot-reactjs-20190630144404-unauthRole",
+			"StackName": "awschatbot-reactjs-20190630144404",
+			"StackId": "arn:aws:cloudformation:us-east-1:281982043102:stack/awschatbot-reactjs-20190630144404/d4fa4320-9b0a-11e9-9a10-0eb2970e4f5e"
+		}
+	},
+	"hosting": {},
+	"auth": {
+		"awschatbot673f475e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/awschatbot-reactjs-20190630144404-deployment/amplify-cfn-templates/auth/awschatbot673f475e-cloudformation-template.yml",
+				"logicalId": "authawschatbot673f475e"
+			},
+			"lastPushTimeStamp": "2019-06-30T11:01:46.788Z",
+			"output": {
+				"AppClientSecret": "gjjj7qdfnt686ste1cipgti5jkfh0cd7m0plheoboidhmn2ifue",
+				"UserPoolId": "us-east-1_1mSef4kE5",
+				"AppClientIDWeb": "5o9l9rjr6qul198o6m56cgvcr9",
+				"AppClientID": "2fgml3sl5is8lijmemvf9n49om",
+				"IdentityPoolId": "us-east-1:5a3d9370-b34c-4439-8385-c1786ed55591",
+				"IdentityPoolName": "awschatbot673f475e_identitypool_673f475e__reactjs",
+				"UserPoolName": "awschatbot673f475e_userpool_673f475e"
+			},
+			"lastPushDirHash": "wXSKjO/sp6ZJg6csL57P/08Ls0Y="
+		}
+	},
+	"analytics": {
+		"awschatbot": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/awschatbot-reactjs-20190630144404-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsawschatbot"
+			},
+			"lastPushTimeStamp": "2019-06-30T11:01:46.790Z",
+			"output": {
+				"appName": "awschatbot-reactjs",
+				"Region": "us-east-1",
+				"Id": "fdb5324c5dfc4228ae9ac8b31dbacabe"
+			},
+			"lastPushDirHash": "6bBQ4/egIAkWaWn66avk9On42WI="
+		}
+	},
+	"interactions": {
+		"lexea4d1b45": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true,
+			"lastBuildTimeStamp": "2019-06-30T10:26:48.191Z",
+			"lastPackageTimeStamp": "2019-06-30T10:26:48.222Z",
+			"distZipFilename": "lexea4d1b45-41304e3954793955526a-build.zip",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/awschatbot-reactjs-20190630144404-deployment/amplify-cfn-templates/interactions/lexea4d1b45-cloudformation-template.json",
+				"logicalId": "interactionslexea4d1b45"
+			},
+			"lastPushTimeStamp": "2019-06-30T11:01:46.792Z",
+			"output": {
+				"FunctionArn": "arn:aws:lambda:us-east-1:281982043102:function:awschatbot_cfnlambda_52361476-reactjs",
+				"Region": "us-east-1",
+				"BotName": "BookTrip_reactjs"
+			},
+			"lastPushDirHash": "pKlDlUHyMQjOWqoAsnptlXjEgNU="
+		}
+	}
+}
