@@ -2,7 +2,7 @@ This is voice bot chat for retailer/online shops project, was built on AWS Ampli
 
 Video demo: https://www.youtube.com/watch?v=6NIfswU61Gc
 
-Trial test: http://awsvoicebot-reactjs.s3-website-us-east-1.amazonaws.com/
+Trial test (pls use FireFox - Chrome now having problem in authen audio with Lex): http://awsvoicebot-reactjs.s3-website-us-east-1.amazonaws.com/
 
 (u/p = koolj@testerpro.org/123456789)
 
