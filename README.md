@@ -1,23 +1,23 @@
 This project was built on AWS Amplify + ReactJS
 
-Demo: https://www.youtube.com/watch?v=6NIfswU61Gc
+Video demo: https://www.youtube.com/watch?v=6NIfswU61Gc
 
 Trial test: http://awsvoicebot-reactjs.s3-website-us-east-1.amazonaws.com/
 
 (u/p = koolj@testerpro.org/123456789)
 
 ## PreInstall
-You should have AWS IAM, CLI, which have right to build AWS Amplify, DynamoDB read write, Lambda execution, and S3 deploy web
+You should have AWS IAM, CLI, Amplify, which have right to build AWS Amplify to push, update or publish, DynamoDB to read write, Lambda to execution, and S3 to deploy web app.
 
 ### Install local
 
-Clone and install run:
+Clone this git, then install run:
 ### `npm install`
 
 Test on local:3000
 ### `npm start`
 
-## Deploy to S3
+## Deploy to S3 (account should have right to AWS S3, Amplify, Lex post text and talk, Polly to talk, Lambda, Dynamodb, Cognito)
 ### `amplify publish`
 
 ----------------------------------------
@@ -38,8 +38,8 @@ Next version for: analytic customer's need, report administrative tasks
 - AWS EC2 for loadbalancing
 - AWS CDN for content delivery
 
-
-
+----------------------------------------
+## Solution by cases
 Case1:
 There are so many small, and online retail shops, that they need some kind of voice bot chat to:
 - automatic reply timesheet checkin for worker
@@ -56,6 +56,7 @@ Case2:
 - To automatically do timesheet checkins for workers
 
 Solution:
+- Use Cognito & Amplify to login
 - Use Lex to have intent and action reply
 - Use Lambda for DB queryig reply, and check double found checkin.
 - User DynamoDB for storing records.
@@ -67,6 +68,7 @@ Case3:
 - To automatically do booking/ordering product for customer. Example a Samsung TV one.
 
 Solution:
+- Use Cognito & Amplify to login
 - Use Lex to have intent and action reply
 - Use Lambda for DB queryig reply, and store order
 - User DynamoDB for storing records
@@ -77,15 +79,16 @@ Case4: Next version
 - To automatically do analytics customer's complaint & analyze potential customers.
 
 Solution:
-- Use Java & AWS EC3 to to build data crawlers, store data to DynamoDB
+- Use Java & AWS EC3 loadbalancing, to to build data crawlers (social network data), store data to DynamoDB/ Elastic Cache
 - Use Lambda for DB queryig reply data for analytic questions
 eg:
-1. How many people like or dislike this product
+1. How many people like or dislike this product in day?
 2. How many people/potential customers, who are they, which record said that they are potential?
+3. Classify potential customer, return the ratio?
 
 
 Any comments are appreciated.
 
 KJ
-
+TesterPRO.org/deepdata
 testerpro.org/admincv
