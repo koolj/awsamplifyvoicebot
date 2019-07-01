@@ -9,6 +9,8 @@ Trial test: http://awsvoicebot-reactjs.s3-website-us-east-1.amazonaws.com/
 ## PreInstall
 You should have AWS IAM, CLI, Amplify, which have right to build AWS Amplify to push, update or publish, DynamoDB to read write, Lambda to execution, and S3 to deploy web app.
 
+Of course you should have npm, node, react-app install and init.
+
 ### Install local
 
 Clone this git, then install run:
