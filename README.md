@@ -1,4 +1,4 @@
-This project was built on AWS Amplify + ReactJS
+This is voice bot chat for retailer/online shops project, was built on AWS Amplify + ReactJS + NodeJS
 
 Video demo: https://www.youtube.com/watch?v=6NIfswU61Gc
 
