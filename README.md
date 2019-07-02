@@ -27,7 +27,7 @@ Test on local:3000
 ## Intro
 AWS Amplify + AWS Lex + AWS Dynamodb + AWS Lambda + AWS Cognito to build voice bot chat for retailer/online shops
 
-This version for: timesheet checkins for shop workers, and booking/ordering products.
+This version for: timesheet checkins for shop workers, and booking/ordering products for shop customer.
 
 Next version for: analytic customer's need, report administrative tasks
 
