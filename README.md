@@ -19,7 +19,8 @@ Clone this git, then install run:
 Test on local:3000
 ### `npm start`
 
-## Deploy to S3 (account should have right to AWS S3, Amplify, Lex post text and talk, Polly to talk, Lambda, Dynamodb, Cognito)
+## Deploy to S3 
+(account should have right to read/write/access/execute to AWS S3, Amplify, Lex post text and talk, Polly to talk, Lambda, Dynamodb, Cognito)
 ### `amplify publish`
 
 ----------------------------------------
