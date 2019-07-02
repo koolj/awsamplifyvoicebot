@@ -9,7 +9,7 @@ Trial test (pls use FireFox - Chrome now having problem in authenticating audio 
 ## PreInstall
 You should have AWS IAM, CLI, Amplify, which have right to build AWS Amplify to push, update or publish, DynamoDB to read write, Lambda to execution, and S3 to deploy web app.
 
-Of course you should have npm, node, react-app install and init.
+Of course you should have npm, node, react-app installed.
 
 ### Install local
 
